@@ -21,24 +21,48 @@ Clone your fork of the java lessons:
 $ git clone https://github.com/<your-github-username>/java-lessons
 ```
 
+Check what is the current branch:
+```
+$ git branch
+```
+
 Implement 'Guess the number' game in your favorite programming language:
 - application generates a random number
 - user tries to guess the number by entering a guess on keyboard
 - application prints whether the guess is greater or lesser than the answer
 - application ends when user guesses right
+Put the source code under the `lesson-00` directory.
 
-Commit the implementation:
+Commit the source code:
 ```
-$ git add .
+$ git add <path-to-source-files>
 $ git commit
 ```
+
+Make any change to your code. Look at your changes:
+```
+$ git status
+$ git diff
+```
+
+Commit the source code.
 
 Push your changes into the remote repo:
 ```
 $ git push origin main
 ```
 
-Send me a link to your repo by email.
+Send me a link to your repo by email:
+```
+
+                                           ***                           *                         
+*   *   ****  *       ***    ***       *  *  **   ***    * *    ***   *  *      **    ***    * *   
+*   *  *      *      *   *  *   *      *  * * *  *   *  * * *      *     *     *  *  *   *  * * *  
+ * *    ***   ****   *   *  *   *   ****  *  **  *   *  * * *   ****  *  *     *     *   *  * * *  
+ * *       *  *   *  *   *   ****  *   *  *       ****  * * *  *   *  *  *     *  *  *   *  * * *  
+  *    ****   ****    ***       *   ****   ***       *  * * *   ****  *  *  *   **    ***   * * *  
+                             ***                  ***                                              
+```
 
 # Links
 
