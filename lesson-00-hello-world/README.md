@@ -66,13 +66,13 @@ git push origin main
 Send me a link to your repo by email using subject `Java Lessons <your-name>`.
 My email address:
 ```
-                                           ***                           *                         
-*   *   ****  *       ***    ***       *  *  **   ***    * *    ***   *  *      **    ***    * *   
-*   *  *      *      *   *  *   *      *  * * *  *   *  * * *      *     *     *  *  *   *  * * *  
- * *    ***   ****   *   *  *   *   ****  *  **  *   *  * * *   ****  *  *     *     *   *  * * *  
- * *       *  *   *  *   *   ****  *   *  *       ****  * * *  *   *  *  *     *  *  *   *  * * *  
-  *    ****   ****    ***       *   ****   ***       *  * * *   ****  *  *  *   **    ***   * * *  
-                             ***                  ***                                              
+                                           @@@                           l                         
+v   v   ssss  b       ooo    ggg       d  @  @@   ggg    m m    aaa   i  l      cc    ooo    m m   
+v   v  s      b      o   o  g   g      d  @ @ @  g   g  m m m      a     l     c  c  o   o  m m m  
+ v v    sss   bbbb   o   o  g   g   dddd  @  @@  g   g  m m m   aaaa  i  l     c     o   o  m m m  
+ v v       s  b   b  o   o   gggg  d   d  @       gggg  m m m  a   a  i  l     c  c  o   o  m m m  
+  v    ssss   bbbb    ooo       g   dddd   @@@       g  m m m   aaaa  i  l  .   cc    ooo   m m m  
+                             ggg                  ggg                                              
 ```
 
 # Links
@@ -80,3 +80,4 @@ My email address:
 - [A Visual Introduction to
   Git](https://medium.com/@ashk3l/a-visual-introduction-to-git-9fdca5d3b43a)
 - [Pro Git Book](https://git-scm.com/book/ru/v2)
+- [Head First Java](https://eksmo.ru/book/izuchaem-java-ITD185236/)
