@@ -9,12 +9,14 @@ Configure your name and email:
 ```
 git config --global user.name "<your-name>"
 git config --global user.email "<your-email>"
+git config --global core.editor "notepad"
 ```
 
 Check your name and email are set properly:
 ```
 git config --global user.name
 git config --global user.email
+git config --global core.editor
 ```
 
 Fork [java lessons repo](https://github.com/vsbogd/java-lessons).
@@ -26,8 +28,12 @@ git clone https://github.com/<your-github-username>/java-lessons
 ## Install Java Development Kit (JDK)
 
 Download and install JDK (Java Development Kit):
-- for x64 system use [Java SE 16.0.1](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
-- for x86 system use [Java SE 8u291](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+- for x64 system use [Liberica JDK 11](https://download.bell-sw.com/java/11.0.11+9/bellsoft-jdk11.0.11+9-windows-amd64.msi)
+- for x86 system use [Liberica JDK 11](https://download.bell-sw.com/java/11.0.11+9/bellsoft-jdk11.0.11+9-windows-i586.msi)
+
+Use your favorite text editor for editing files. I would recommend
+using `Geany` a small editor with a syntax highlighting ([Geany download
+page](https://www.geany.org/download/releases/)).
 
 ## Experiment with HelloWorldApp
 
@@ -42,7 +48,7 @@ Edit `HelloWorldApp.java` and replace the message to the `Hello from
 javac HelloWorldApp.java
 ```
 
-Run it again and see if message is updated.
+Run it again and see if the message is updated.
 
 ## Save results of experiment in your fork
 
@@ -63,8 +69,8 @@ Push your changes into the remote repo:
 git push origin main
 ```
 
-Send me a link to your repo by email using subject `Java Lessons <your-name>`.
-My email address:
+Send me a link to your repo by an email using subject `Java Lessons
+<your-name>`.  My email address is:
 ```
                                            @@@                           l                         
 v   v   ssss  b       ooo    ggg       d  @  @@   ggg    m m    aaa   i  l      cc    ooo    m m   
