@@ -1,60 +1,71 @@
 # Hometask
 
-Create your profile at GitHub.
-Download and install the Git client (see [Links](#links)).
+## Clone GitHub repo
+
+Sign up at [GitHub main page](https://github.com/). Download and install the
+Git client (see [Git downloads page](https://git-scm.com/downloads)).
 
 Configure your name and email:
 ```
-$ git config --global user.name "Vitaly Bogdanov"
-$ git config --global user.email "email@example.com"
+git config --global user.name "<your-name>"
+git config --global user.email "<your-email>"
 ```
 
 Check your name and email are set properly:
 ```
-$ git config --global user.name
-$ git config --global user.email
+git config --global user.name
+git config --global user.email
 ```
 
-Fork [java lessons](https://github.com/vsbogd/java-lessons) repo.
+Fork [java lessons repo](https://github.com/vsbogd/java-lessons).
 Clone your fork of the java lessons:
 ```
-$ git clone https://github.com/<your-github-username>/java-lessons
+git clone https://github.com/<your-github-username>/java-lessons
 ```
 
-Check what is the current branch:
+## Install Java Development Kit (JDK)
+
+Download and install JDK (Java Development Kit):
+- for x64 system use [Java SE 16.0.1](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
+- for x86 system use [Java SE 8u291](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+
+## Experiment with HelloWorldApp
+
+Change directory to the `lesson-00-hello-world` and run HelloWorldApp:
 ```
-$ git branch
+java HelloWorldApp
 ```
 
-Implement 'Guess the number' game in your favorite programming language:
-- application generates a random number
-- user tries to guess the number by entering a guess on keyboard
-- application prints whether the guess is greater or lesser than the answer
-- application ends when user guesses right
-Put the source code under the `lesson-00` directory.
-
-Commit the source code:
+Edit `HelloWorldApp.java` and replace the message to the `Hello from
+<your-name>`. Compile new version using:
 ```
-$ git add <path-to-source-files>
-$ git commit
+javac HelloWorldApp.java
 ```
 
-Make any change to your code. Look at your changes:
+Run it again and see if message is updated.
+
+## Save results of experiment in your fork
+
+Look at your changes:
 ```
-$ git status
-$ git diff
+git status
+git diff
 ```
 
-Commit the source code.
+Commit the changes:
+```
+git add .
+git commit
+```
 
 Push your changes into the remote repo:
 ```
-$ git push origin main
+git push origin main
 ```
 
-Send me a link to your repo by email:
+Send me a link to your repo by email using subject `Java Lessons <your-name>`.
+My email address:
 ```
-
                                            ***                           *                         
 *   *   ****  *       ***    ***       *  *  **   ***    * *    ***   *  *      **    ***    * *   
 *   *  *      *      *   *  *   *      *  * * *  *   *  * * *      *     *     *  *  *   *  * * *  
@@ -66,8 +77,6 @@ Send me a link to your repo by email:
 
 # Links
 
-- [Git downloads page](https://git-scm.com/downloads)
-- [GitHub main page](https://github.com/)
 - [A Visual Introduction to
   Git](https://medium.com/@ashk3l/a-visual-introduction-to-git-9fdca5d3b43a)
 - [Pro Git Book](https://git-scm.com/book/ru/v2)
