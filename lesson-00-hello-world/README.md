@@ -10,13 +10,13 @@ Configure your name and email:
 git config --global user.name "<your-name>"
 git config --global user.email "<your-email>"
 git config --global core.editor "notepad"
+git config --global credential.helper wincred
 ```
 
 Check your name and email are set properly:
 ```
 git config --global user.name
 git config --global user.email
-git config --global core.editor
 ```
 
 Fork [java lessons repo](https://github.com/vsbogd/java-lessons).
@@ -24,6 +24,17 @@ Clone your fork of the java lessons:
 ```
 git clone https://github.com/<your-github-username>/java-lessons
 ```
+
+Generate new personal access tocken at [Personal access token
+page](https://github.com/settings/tokens). You need doing it once, then git
+client caches the token and use it automatically. Copy token into clipboard.
+
+Check your new token:
+```
+git push origin main
+```
+Git will ask you for your username and password. Use the token as a password.
+
 
 ## Install Java Development Kit (JDK)
 
