@@ -97,7 +97,6 @@ v   v  s      b      o   o  g   g      d  @ @ @  g   g  m m m      a     l     c
 
 # Links
 
-- [A Visual Introduction to
-  Git](https://medium.com/@ashk3l/a-visual-introduction-to-git-9fdca5d3b43a)
+- [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-ru.html)
 - [Pro Git Book](https://git-scm.com/book/ru/v2)
 - [Head First Java](https://eksmo.ru/book/izuchaem-java-ITD185236/)
