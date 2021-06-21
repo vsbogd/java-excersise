@@ -1,4 +1,4 @@
-# Hometask
+# Lesson 00. Hello World. Git version control system.
 
 ## Clone GitHub repo
 
