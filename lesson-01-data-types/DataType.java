@@ -75,6 +75,13 @@ public class DataType {
 			System.out.println("positiveInf / negativeInf == " + (positiveInf / negativeInf));
 		}
 
+		{
+			char c = 'B';
+			int n = (int) c;
+			System.out.println("n = " + n);
+			int nn = c;
+			System.out.println("nn = " + nn);
+		}
 
 
 	}
